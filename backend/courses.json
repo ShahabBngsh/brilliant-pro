@@ -1,0 +1,188 @@
+[
+  {
+    "title": "Programming for Everybody (Getting Started with Python)",
+    "img": "http://www.link.com",
+    "overview": "This course aims to teach everyone the basics of programming computers using Python. We cover the basics of how one constructs a program from a series of simple instructions in Python.  The course has no pre-requisites and avoids all but the simplest mathematics. Anyone with moderate computer experience should be able to master the materials in this course.",
+    "price": "20",
+    "offered-by": "University of Michigan",
+    "skills": [
+      "Python Syntax And Semantics",
+      "Basic Programming Language",
+      "Computer Programming",
+      "Python Programming"
+    ],
+    "materials": [
+      "m-link1",
+      "m-link2"
+    ],
+    "assesments": [
+      "asses-link1",
+      "asses-link2"
+    ],
+    "enrolled": [
+      "s-id1",
+      "s-id2"
+    ],
+    "mid": [
+      "s-id1",
+      "s-id2"
+    ],
+    "failed": [
+      "s-id1",
+      "s-id2"
+    ],
+    "passed": [
+      "s-id1",
+      "s-id2"
+    ]
+  },
+  {
+    "title": "Server-side Development with NodeJS, Express and MongoDB",
+    "img": "http://www.link.com",
+    "overview": "This course deals with all things server-side. We base the entire course around the NodeJS platform. We start with a brief overview of the Web protocols: HTTP and HTTPS. We examine NodeJS and NodeJS modules: Express for building web servers. On the database side, we review basic CRUD operations, NoSQL databases, in particular MongoDB and Mongoose for accessing MongoDB from NodeJS. We examine the REST concepts and building a RESTful API.",
+    "price": "10",
+    "offered-by": "The Hong Kong University of Science and Technology",
+    "skills": [
+      "Authentication",
+      "Node.Js",
+      "Mongodb",
+      "Express.Js"
+    ],
+    "materials": [
+      "m-link1",
+      "m-link2"
+    ],
+    "assesments": [
+      "asses-link1",
+      "asses-link2"
+    ],
+    "enrolled": [
+      "s-id1",
+      "s-id2"
+    ],
+    "mid": [
+      "s-id1",
+      "s-id2"
+    ],
+    "failed": [
+      "s-id1",
+      "s-id2"
+    ],
+    "passed": [
+      "s-id1",
+      "s-id2"
+    ]
+  },
+  {
+    "title": "Front-End Web Development with React",
+    "img": "http://www.link.com",
+    "overview": "This course explores Javascript based front-end application development, and in particular the React library (Currently Ver. 16.3). This course will use JavaScript ES6 for developing React application. You will also get an introduction to the use of Reactstrap for Bootstrap 4-based responsive UI design. You will be introduced to various aspects of React components. You will learn about React router and its use in developing single-page applications.",
+    "price": "15",
+    "offered-by": "The Hong Kong University of Science and Technology",
+    "skills": [
+      "Front-end development",
+      "React Library",
+      "Bootstrap 4",
+      "Client-Server communication"
+    ],
+    "materials": [
+      "m-link1",
+      "m-link2"
+    ],
+    "assesments": [
+      "asses-link1",
+      "asses-link2"
+    ],
+    "enrolled": [
+      "s-id1",
+      "s-id2"
+    ],
+    "mid": [
+      "s-id1",
+      "s-id2"
+    ],
+    "failed": [
+      "s-id1",
+      "s-id2"
+    ],
+    "passed": [
+      "s-id1",
+      "s-id2"
+    ]
+  },
+  {
+    "title": "Responsive Web Design in Adobe XD",
+    "img": "http://www.link.com",
+    "overview": "Responsive Web Design in Adobe XD is the sixth course in a program that will equip you with the skills you need to apply to entry-level jobs in user experience (UX) design. In this course, you will design a responsive website using Adobe XD, a popular design tool. You will complete the design process from beginning to end: empathizing with users, defining their pain points, coming up with ideas for design solutions, creating wireframes and prototypes, and testing designs to get feedback. By the end of this course, you will have a new design project to include in your professional UX portfolio.",
+    "price": "20",
+    "offered-by": "Google",
+    "skills": [
+      "Adobe XD",
+      "User Experience (UX)",
+      "Usability Testing",
+      "Prototype"
+    ],
+    "materials": [
+      "m-link1",
+      "m-link2"
+    ],
+    "assesments": [
+      "asses-link1",
+      "asses-link2"
+    ],
+    "enrolled": [
+      "s-id1",
+      "s-id2"
+    ],
+    "mid": [
+      "s-id1",
+      "s-id2"
+    ],
+    "failed": [
+      "s-id1",
+      "s-id2"
+    ],
+    "passed": [
+      "s-id1",
+      "s-id2"
+    ]
+  },
+  {
+    "title": "AWS Fundamentals: Building Serverless Applications",
+    "img": "http://www.link.com",
+    "overview": "This course will introduce you to Amazon Web Services (AWS) serverless architecture. Through demonstrations and hands-on exercises you'll learn skills in building and deploying serverless solutions. Using real-world examples of a serverless website and chat bot, you'll build upon your existing knowledge of the AWS cloud to take advantage of the benefits of modern architectures for greater agility, innovation, and lower total cost of ownership across a range of AWS services, including AWS Lambda, Amazon API Gateway, Amazon DynamoDB, and Amazon Lex.",
+    "price": "5",
+    "offered-by": "Amazon Web Services",
+    "skills": [
+      "AWS Lambda",
+      "Amazon Lex",
+      "Amazon API Gateway",
+      "serverless architecture",
+      "Amazon Dynamodb"
+    ],
+    "materials": [
+      "m-link1",
+      "m-link2"
+    ],
+    "assesments": [
+      "asses-link1",
+      "asses-link2"
+    ],
+    "enrolled": [
+      "s-id1",
+      "s-id2"
+    ],
+    "mid": [
+      "s-id1",
+      "s-id2"
+    ],
+    "failed": [
+      "s-id1",
+      "s-id2"
+    ],
+    "passed": [
+      "s-id1",
+      "s-id2"
+    ]
+  }
+]

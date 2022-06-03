@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Shahab",
+    "profile-picture": "link",
+    "bio": "just random bio",
+    "achievements": [
+      "course-id1",
+      "course-idn"
+    ],
+    "enrolled": [
+      "course-id1",
+      "course-idn"
+    ],
+    "assesments": [
+      "asses-id1",
+      "asses-idn"
+    ],
+    "balance": "60"
+  },
+  {
+    "name": "Zohair",
+    "profile-picture": "link",
+    "bio": "definately not a random bio",
+    "achievements": [
+      "course-id1",
+      "course-idn"
+    ],
+    "enrolled": [
+      "course-id1",
+      "course-idn"
+    ],
+    "assesments": [
+      "asses-id1",
+      "asses-idn"
+    ],
+    "balance": "190"
+  },
+  {
+    "name": "Zain",
+    "profile-picture": "link",
+    "bio": "just another random bio",
+    "achievements": [
+      "course-id1",
+      "course-idn"
+    ],
+    "enrolled": [
+      "course-id1",
+      "course-idn"
+    ],
+    "assesments": [
+      "asses-id1",
+      "asses-idn"
+    ],
+    "balance": "100"
+  },
+  {
+    "name": "Usama",
+    "profile-picture": "link",
+    "bio": "bio random",
+    "achievements": [
+      "course-id1",
+      "course-idn"
+    ],
+    "enrolled": [
+      "course-id1",
+      "course-idn"
+    ],
+    "assesments": [
+      "asses-id1",
+      "asses-idn"
+    ],
+    "balance": "60"
+  },
+  {
+    "name": "Piyush",
+    "profile-picture": "link",
+    "bio": "random bio",
+    "achievements": [
+      "course-id1",
+      "course-idn"
+    ],
+    "enrolled": [
+      "course-id1",
+      "course-idn"
+    ],
+    "assesments": [
+      "asses-id1",
+      "asses-idn"
+    ],
+    "balance": "40"
+  }
+]
