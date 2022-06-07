@@ -4,7 +4,7 @@
     "img": "https://media.istockphoto.com/photos/stack-of-books-picture-id157482029?k=20&m=157482029&s=612x612&w=0&h=b_0K-1Ut9alhKYu9zlgevSAHDkqSxLF634VDwPw8CHU=",
     "overview": "This course aims to teach everyone the basics of programming computers using Python. We cover the basics of how one constructs a program from a series of simple instructions in Python.  The course has no pre-requisites and avoids all but the simplest mathematics. Anyone with moderate computer experience should be able to master the materials in this course.",
     "price": 2000,
-    "offered-by": "University of Michigan",
+    "offeredBy": "University of Michigan",
     "skills": [
       "Python Syntax And Semantics",
       "Basic Programming Language",
@@ -41,7 +41,7 @@
     "img": "https://thumbs.dreamstime.com/b/old-book-flying-letters-magic-light-background-bookshelf-library-ancient-books-as-symbol-knowledge-history-218640948.jpg",
     "overview": "This course deals with all things server-side. We base the entire course around the NodeJS platform. We start with a brief overview of the Web protocols: HTTP and HTTPS. We examine NodeJS and NodeJS modules: Express for building web servers. On the database side, we review basic CRUD operations, NoSQL databases, in particular MongoDB and Mongoose for accessing MongoDB from NodeJS. We examine the REST concepts and building a RESTful API.",
     "price": 1000,
-    "offered-by": "The Hong Kong University of Science and Technology",
+    "offeredBy": "The Hong Kong University of Science and Technology",
     "skills": [
       "Authentication",
       "Node.Js",
@@ -78,7 +78,7 @@
     "img": "https://leverageedu.com/blog/wp-content/uploads/2019/09/Importance-of-Books.jpg",
     "overview": "This course explores Javascript based front-end application development, and in particular the React library (Currently Ver. 16.3). This course will use JavaScript ES6 for developing React application. You will also get an introduction to the use of Reactstrap for Bootstrap 4-based responsive UI design. You will be introduced to various aspects of React components. You will learn about React router and its use in developing single-page applications.",
     "price": 1500,
-    "offered-by": "The Hong Kong University of Science and Technology",
+    "offeredBy": "The Hong Kong University of Science and Technology",
     "skills": [
       "Front-end development",
       "React Library",
@@ -115,7 +115,7 @@
     "img": "https://media.istockphoto.com/photos/row-of-books-on-a-shelf-multicolored-book-spines-stack-in-the-picture-id1222550815?b=1&k=20&m=1222550815&s=170667a&w=0&h=MTxBeBrrrYtdlpzhMpD1edwLYQf3OPgkNeDEgIzYJww=",
     "overview": "Responsive Web Design in Adobe XD is the sixth course in a program that will equip you with the skills you need to apply to entry-level jobs in user experience (UX) design. In this course, you will design a responsive website using Adobe XD, a popular design tool. You will complete the design process from beginning to end: empathizing with users, defining their pain points, coming up with ideas for design solutions, creating wireframes and prototypes, and testing designs to get feedback. By the end of this course, you will have a new design project to include in your professional UX portfolio.",
     "price": 2000,
-    "offered-by": "Google",
+    "offeredBy": "Google",
     "skills": [
       "Adobe XD",
       "User Experience (UX)",
@@ -152,7 +152,7 @@
     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-MSHDeRRp2m86wMKYkqx88spBZvID-b4g2A&usqp=CAU",
     "overview": "This course will introduce you to Amazon Web Services (AWS) serverless architecture. Through demonstrations and hands-on exercises you'll learn skills in building and deploying serverless solutions. Using real-world examples of a serverless website and chat bot, you'll build upon your existing knowledge of the AWS cloud to take advantage of the benefits of modern architectures for greater agility, innovation, and lower total cost of ownership across a range of AWS services, including AWS Lambda, Amazon API Gateway, Amazon DynamoDB, and Amazon Lex.",
     "price": 500,
-    "offered-by": "Amazon Web Services",
+    "offeredBy": "Amazon Web Services",
     "skills": [
       "AWS Lambda",
       "Amazon Lex",

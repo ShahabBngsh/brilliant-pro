@@ -14,7 +14,7 @@ const getAllCourses = async (req, res, next) => {
 };
 ////////////////////////////////////////////////////////////////////
 const addCourse = async (req, res, next) => {
-  const { title, img, overview, price, offeredBy, skills,materials,assesments,enrolled,mid,failed,passed } = req.body;
+  const { title, img, overview, price, offeredBy, skills, materials, assesments, enrolled, mid, failed, passed } = req.body;
   let course;
   try {
     course = new Course({
@@ -55,8 +55,8 @@ const getCoursebyID = async (req, res, next) => {
 };
 //////////////////////////////////////////////////////////////////////////////////////////////
 const updateCourse = async (req, res, next) => {
-  const { title, img, overview, price, offeredBy, skills,materials,assessments,enrolled,mid,failed,passed } = req.body;
-  let newCourse = { title, img, overview, price, offeredBy, skills,materials,assessments,enrolled,mid,failed,passed };
+  const { title, img, overview, price, offeredBy, skills, materials, assessments, enrolled, mid, failed, passed } = req.body;
+  let newCourse = { title, img, overview, price, offeredBy, skills, materials, assessments, enrolled, mid, failed, passed };
   let course;
   try {
     course = await Course.findByIdAndUpdate(req.params.id, newCourse);
@@ -67,7 +67,7 @@ const updateCourse = async (req, res, next) => {
   if (!course) {
     return res.status(404).json({ message: "Cannot update the course" });
   }
-  return res.status(200).json({ course });
+  return res.redirect('/api/courses');
 };
 
 const deleteCourse = async (req, res, next) => {
@@ -80,7 +80,7 @@ const deleteCourse = async (req, res, next) => {
   if (!course) {
     return res.status(404).json({ message: "Cannot delete the Course" });
   }
-  return res.status(200).json({ course });
+  return res.redirect('/api/courses');
 };
 exports.deleteCourse = deleteCourse;
 

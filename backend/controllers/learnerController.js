@@ -14,18 +14,18 @@ const getAllLearners = async (req, res, next) => {
 };
 ////////////////////////////////////////////////////////////////////
 const addLearner = async (req, res, next) => {
-  const { name, img, bio, achievements, enrolled, assesments,balance } = req.body;
+  const { name, img, bio, achievements, enrolled, assesments, balance } = req.body;
   let learner;
   try {
     learner = new Learner({
-        name,
-        img,
-        bio,
-        achievements,
-        enrolled,
-        assesments,
-        balance,
-});
+      name,
+      img,
+      bio,
+      achievements,
+      enrolled,
+      assesments,
+      balance,
+    });
     await learner.save();
   } catch (err) {
     console.log("Error adding the Learner" + JSON.stringify(err, undefined, 2));
@@ -50,8 +50,8 @@ const getLearnerbyID = async (req, res, next) => {
 };
 //////////////////////////////////////////////////////////////////////////////////////////////
 const updateLearner = async (req, res, next) => {
-  const { name, img, bio, achievements, enrolled, assesments,balance } = req.body;
-  let newLearner = { name, img, bio, achievements, enrolled, assesments,balance };
+  const { name, img, bio, achievements, enrolled, assesments, balance } = req.body;
+  let newLearner = { name, img, bio, achievements, enrolled, assesments, balance };
   let learner;
   try {
     learner = await Learner.findByIdAndUpdate(req.params.id, newLearner);
@@ -62,7 +62,7 @@ const updateLearner = async (req, res, next) => {
   if (!learner) {
     return res.status(404).json({ message: "Cannot update the learner" });
   }
-  return res.status(200).json({ learner });
+  return res.redirect('/api/learners');
 };
 
 const deleteLearner = async (req, res, next) => {
@@ -75,7 +75,7 @@ const deleteLearner = async (req, res, next) => {
   if (!learner) {
     return res.status(404).json({ message: "Cannot delete the Learner" });
   }
-  return res.status(200).json({ learner });
+  return res.redirect('/api/learners');
 };
 exports.deleteLearner = deleteLearner;
 

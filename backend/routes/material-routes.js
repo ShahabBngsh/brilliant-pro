@@ -5,8 +5,8 @@ const Material = require("../models/material");
 const materialController = require("../controllers/materialController");
 
 router.get("/", materialController.getAllMaterials);
-router.post("/addMaterial", materialController.addMaterial);
-router.get("/getMaterial/:id", materialController.getMaterialbyID);
-router.put("/updateMaterial/:id", materialController.updateMaterial);
-router.delete("/deleteMaterial/:id", materialController.deleteMaterial);
+router.post("/", materialController.addMaterial);
+router.get("/:id", materialController.getMaterialbyID);
+router.put("/:id", materialController.updateMaterial);
+router.delete("/:id", materialController.deleteMaterial);
 module.exports = router;
