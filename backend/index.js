@@ -1,27 +1,26 @@
 const express = require('express');
+const mongoose=require('mongoose');
 const cors = require('cors');
-const dbconn = require('./db/conn');
+const courseRouter=require('./routes/course-routes')
+const learnerRouter=require('./routes/learner-routes')
+// const assessmentRouter=require('./routes/assessment-routes')
+// const materialRouter=require('./routes/material-routes')
+
 const app = express();
 
 app.use(cors());
 app.use(express.json());
-app.use(require('./routes/courses'));
-app.use(require('./routes/learners'));
 
-app.use((err, req, res) => {
-  // console.log(err);
-  // res.status(500).send('Something went wrong!!!');
-  console.log('Route does not exist ')
-  // res.redirect('/api/courses');
-});
 
-const PORT = process.env.PORT || 3000;
-dbconn.connectToServer(function (err) {
-  if (err) {
-    console.log(err.stack);
-    process.exit(1);
-  }
-  app.listen(PORT, () => {
-    console.log(`server listening on port: ${PORT}`);
-  });
-});
+app.use('/api/courses',courseRouter);
+app.use('/api/learners',learnerRouter);
+
+
+mongoose.connect("mongodb://localhost:27017/brilliantpro")
+.then(()=>console.log("Connected to the Database"))
+.then(()=>{
+  app.listen(5000,console.log("Listening on port 5000"))
+})
+.catch((err=>{
+  console.log("Error connecting to the Database");
+}))

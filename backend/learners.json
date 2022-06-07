@@ -1,7 +1,7 @@
 [
   {
     "name": "Shahab",
-    "profile-picture": "link",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4rsSzLimlQyniEtUV4-1raljzFhS45QBeAw&usqp=CAU",
     "bio": "just random bio",
     "achievements": [
       "course-id1",
@@ -15,11 +15,11 @@
       "asses-id1",
       "asses-idn"
     ],
-    "balance": "60"
+    "balance": 600
   },
   {
     "name": "Zohair",
-    "profile-picture": "link",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ12pkrJPnVL2ybKPJiIwZP5gDIkrUG99R20g&usqp=CAU",
     "bio": "definately not a random bio",
     "achievements": [
       "course-id1",
@@ -33,11 +33,11 @@
       "asses-id1",
       "asses-idn"
     ],
-    "balance": "190"
+    "balance": 190
   },
   {
     "name": "Zain",
-    "profile-picture": "link",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK9gqFKRn28xKHD1CAbEevdzsLmsv5yQkGnQ&usqp=CAU",
     "bio": "just another random bio",
     "achievements": [
       "course-id1",
@@ -51,11 +51,11 @@
       "asses-id1",
       "asses-idn"
     ],
-    "balance": "100"
+    "balance": 100
   },
   {
     "name": "Usama",
-    "profile-picture": "link",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK9gqFKRn28xKHD1CAbEevdzsLmsv5yQkGnQ&usqp=CAU",
     "bio": "bio random",
     "achievements": [
       "course-id1",
@@ -69,11 +69,11 @@
       "asses-id1",
       "asses-idn"
     ],
-    "balance": "60"
+    "balance": 600
   },
   {
     "name": "Piyush",
-    "profile-picture": "link",
+    "img": "https://content.fortune.com/wp-content/uploads/2018/07/gettyimages-961697338.jpg",
     "bio": "random bio",
     "achievements": [
       "course-id1",
@@ -87,6 +87,6 @@
       "asses-id1",
       "asses-idn"
     ],
-    "balance": "40"
+    "balance": 400
   }
 ]
