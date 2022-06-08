@@ -67,7 +67,7 @@ const updateCourse = async (req, res, next) => {
   if (!course) {
     return res.status(404).json({ message: "Cannot update the course" });
   }
-  return res.redirect('/api/courses');
+  // return res.redirect('/api/courses');
 };
 
 const deleteCourse = async (req, res, next) => {
@@ -80,7 +80,7 @@ const deleteCourse = async (req, res, next) => {
   if (!course) {
     return res.status(404).json({ message: "Cannot delete the Course" });
   }
-  return res.redirect('/api/courses');
+  // return res.redirect('/api/courses');
 };
 exports.deleteCourse = deleteCourse;
 

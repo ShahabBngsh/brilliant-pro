@@ -3,8 +3,8 @@ const mongoose=require('mongoose');
 const cors = require('cors');
 const courseRouter=require('./routes/course-routes')
 const learnerRouter=require('./routes/learner-routes')
-// const assessmentRouter=require('./routes/assessment-routes')
-// const materialRouter=require('./routes/material-routes')
+const assessmentRouter=require('./routes/assessment-routes')
+const materialRouter=require('./routes/material-routes')
 
 const app = express();
 
@@ -14,6 +14,8 @@ app.use(express.json());
 
 app.use('/api/courses',courseRouter);
 app.use('/api/learners',learnerRouter);
+app.use('/api/assessments',assessmentRouter);
+app.use('/api/materials',materialRouter);
 
 
 mongoose.connect("mongodb://localhost:27017/brilliantpro")

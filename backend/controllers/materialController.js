@@ -14,7 +14,7 @@ const getAllMaterials = async (req, res, next) => {
 };
 ////////////////////////////////////////////////////////////////////
 const addMaterial = async (req, res, next) => {
-  const { title, img, overview, price, offeredBy, skills, materials, assesments, enrolled, mid, failed, passed } = req.body;
+  const { title, link } = req.body;
   let material;
   try {
     material = new Material({
@@ -23,7 +23,9 @@ const addMaterial = async (req, res, next) => {
     });
     await material.save();
   } catch (err) {
-    console.log("Error adding the material" + JSON.stringify(err, undefined, 2));
+    console.log(
+      "Error adding the material" + JSON.stringify(err, undefined, 2)
+    );
   }
   if (!material) {
     return res.status(404).json({ message: "Unable to Add material" });
@@ -49,15 +51,15 @@ const updateMaterial = async (req, res, next) => {
   let newMaterial = { title, link };
   let material;
   try {
-    material = await Material.findByIdAndUpdate(req.params.id, newCourse);
+    material = await Material.findByIdAndUpdate(req.params.id, newMaterial);
     material = await material.save();
   } catch (err) {
     console.log(err);
   }
   if (!material) {
-    return res.status(404).json({ message: "Cannot update the assesment" });
+    return res.status(404).json({ message: "Cannot update the material" });
   }
-  return res.redirect('/api/materials');
+  // return res.redirect('/api/materials');
 };
 
 const deleteMaterial = async (req, res, next) => {
@@ -70,7 +72,7 @@ const deleteMaterial = async (req, res, next) => {
   if (!material) {
     return res.status(404).json({ message: "Cannot delete the material" });
   }
-  return res.redirect('/api/material');
+  // return res.redirect('/api/material');
 };
 exports.deleteMaterial = deleteMaterial;
 

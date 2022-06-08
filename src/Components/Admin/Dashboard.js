@@ -1,8 +1,18 @@
-import React from "react";
-import './Dashboard.css'
+import axios from "axios";
+import React, { useEffect, useState } from "react";
+import "./Dashboard.css";
+
+const URL = "http://localhost:5000/api/courses";
+const fetchHandler = async () => {
+  return await axios.get(URL).then((res) => res.data);
+};
 
 const Dashboard = () => {
-
+  const [courses, setCourses] = useState();
+  useEffect(() => {
+    fetchHandler().then((data) => setCourses(data.courses));
+  }, []);
+  console.log(courses);
 
   return (
     <React.Fragment>

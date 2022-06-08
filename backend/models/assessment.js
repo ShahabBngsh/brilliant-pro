@@ -4,7 +4,7 @@ const assessmentSchema = new Schema({
   title: { type: String },
   duration: { type: String },
   minPassingCriteria: { type: String },
-  questions: { type: String },
+  questions: [{ type: String }],
   answers: [{ type: String }],
 });
 

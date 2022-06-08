@@ -1,0 +1,23 @@
+[
+{
+    "title":"Quiz-1",
+    "duration":"2 hours",
+    "minPassingCriteria":"40 marks",
+    "questions":["How are you?","Marks?"],
+    "answers":["Fine","Full"]
+},
+
+{    "title":"Quiz-2",
+    "duration":"1 hours",
+    "minPassingCriteria":"10 marks",
+    "questions":["What's your name?","Marks?"],
+    "answers":["Zain","20"]
+},
+
+{    "title":"Quiz-3",
+    "duration":"1 hours",
+    "minPassingCriteria":"40 marks",
+    "questions":["Doing what?","Marks?"],
+    "answers":["Nothing","10"]
+}
+]

@@ -14,7 +14,7 @@ const getAllAssessments = async (req, res, next) => {
 };
 ////////////////////////////////////////////////////////////////////
 const addAssessment = async (req, res, next) => {
-  const { title, img, overview, price, offeredBy, skills, materials, assesments, enrolled, mid, failed, passed } = req.body;
+  const { title, duration, minPassingCriteria, questions, answers} = req.body;
   let assessment;
   try {
     assessment = new Assessment({
@@ -52,15 +52,15 @@ const updateAssessment = async (req, res, next) => {
   let newAssessment = { title, duration, minPassingCriteria, questions, answers };
   let assessment;
   try {
-    assessment = await Assessment.findByIdAndUpdate(req.params.id, newCourse);
+    assessment = await Assessment.findByIdAndUpdate(req.params.id, newAssessment);
     assessment = await assessment.save();
   } catch (err) {
     console.log(err);
   }
   if (!assessment) {
-    return res.status(404).json({ message: "Cannot update the assesment" });
+    return res.status(404).json({ message: "Cannot update the assessment" });
   }
-  return res.redirect('/api/assessments');
+  // return res.redirect('/api/assessments');
 };
 
 const deleteAssessment = async (req, res, next) => {

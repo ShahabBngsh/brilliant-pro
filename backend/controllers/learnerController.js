@@ -62,7 +62,7 @@ const updateLearner = async (req, res, next) => {
   if (!learner) {
     return res.status(404).json({ message: "Cannot update the learner" });
   }
-  return res.redirect('/api/learners');
+  // return res.redirect('/api/learners');
 };
 
 const deleteLearner = async (req, res, next) => {
@@ -75,7 +75,7 @@ const deleteLearner = async (req, res, next) => {
   if (!learner) {
     return res.status(404).json({ message: "Cannot delete the Learner" });
   }
-  return res.redirect('/api/learners');
+  // return res.redirect('/api/learners');
 };
 exports.deleteLearner = deleteLearner;
 

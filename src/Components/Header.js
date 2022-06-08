@@ -23,7 +23,7 @@ const Header = () => {
             <Tab LinkComponent={NavLink} to="/dashboard" label="DashBoard" />
             <Tab LinkComponent={NavLink} to="/courses" label="Courses" />
             <Tab LinkComponent={NavLink} to="/learners" label="Learners" />
-            <Tab LinkComponent={NavLink} to="/material" label="Material" />
+            <Tab LinkComponent={NavLink} to="/materials" label="Material" />
             <Tab LinkComponent={NavLink} to="/assessments" label="Assessments" />
           </Tabs>
         </Toolbar>

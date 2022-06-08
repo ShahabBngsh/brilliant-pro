@@ -170,7 +170,7 @@ const CourseDetail = () => {
       ></TextField>
 
       <Button variant="contained" type="submit">
-        Add Course
+        Update Course
       </Button>
     </Box>
   </form>
